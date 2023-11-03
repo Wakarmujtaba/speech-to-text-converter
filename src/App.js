@@ -24,8 +24,8 @@ function App() {
       <label> <a href="https://www.linkedin.com/in/wakar-mujtaba-457520190/"> By Wakar Mujtaba</a> </label>
       <br />
 
-      <p >  </p>
-       <button onClick={startlistening} style={{background:'maroon', marginTop:'1px'}}>Start</button>
+      {/* <p >  </p> */}
+       <button onClick={startlistening} style={{background:'maroon', marginTop:'1px'}} className='btnnmj'>Start</button>
       <div className='main-content' onClick={() =>  setTextToCopy(transcript)}>
       {transcript}
       </div>

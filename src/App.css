@@ -107,7 +107,8 @@ button:hover {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 25px;
+    margin-top: -45px;
   }
 
   p {
