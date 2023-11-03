@@ -25,7 +25,7 @@ function App() {
       <br />
 
       <p >  </p>
-       <button onClick={refreshpage} style={{background:'maroon', marginTop:'1px'}}>Reset</button>
+       <button onClick={startlistening} style={{background:'maroon', marginTop:'1px'}}>Start</button>
       <div className='main-content' onClick={() =>  setTextToCopy(transcript)}>
       {transcript}
       </div>
@@ -36,7 +36,7 @@ function App() {
        
       </button>
 
-        <button onClick={startlistening}>Start</button>
+        <button onClick={refreshpage}>Reset</button>
         <button onClick={stoplstening} style={{background:'red'}}>stop</button>
       </div>
     </div>
